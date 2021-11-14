@@ -1,0 +1,21 @@
+{
+    "name": "korchid/bundletest",
+    "description": "Set test bundle for Symfony apps",
+    "type": "symfony-bundle",
+    "require": {
+        "php": ">=7.4",
+        "symfony/framework-bundle": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gebler\\SecurityHeadersBundle\\": "src/"
+        }
+    },  
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mahmoud KORCHID",
+            "email": "kourchid.mahmoud@gmail.com"
+        }
+    ]
+}
